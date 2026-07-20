@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "icon": "Users",
+      "title": {
+        "ar": "التعاون",
+        "en": "Collaboration"
+      },
+      "text": {
+        "ar": "الإيمان بروح الفريق الواحد لتحقيق الهدف المثالي للشركة.",
+        "en": "A one-team spirit dedicated to achieving the company's ideal goal."
+      }
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": {
+        "ar": "رضا العملاء",
+        "en": "Customer Satisfaction"
+      },
+      "text": {
+        "ar": "إنجاز المهام الموكلة بأعلى مستوى من الكفاءة والدقة.",
+        "en": "Delivering every assignment with the highest level of efficiency and precision."
+      }
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": {
+        "ar": "الجودة",
+        "en": "Quality"
+      },
+      "text": {
+        "ar": "تنفيذ الأعمال بأعلى معايير الجودة المطلوبة وبأحدث الطرق.",
+        "en": "Executing work to the highest quality standards using the latest methods."
+      }
+    },
+    {
+      "icon": "Lightbulb",
+      "title": {
+        "ar": "الابتكار",
+        "en": "Innovation"
+      },
+      "text": {
+        "ar": "ابتكار أساليب حديثة للتنفيذ مع الحفاظ على الجودة وتقليل التكاليف.",
+        "en": "Innovating modern execution methods while preserving quality and reducing cost."
+      }
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": {
+        "ar": "الثقة",
+        "en": "Trust"
+      },
+      "text": {
+        "ar": "بناء ثقة عالية ومستدامة مع العملاء والموردين.",
+        "en": "Building high, sustainable trust with clients and suppliers alike."
+      }
+    }
+  ]
+}

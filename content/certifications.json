@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "code": "ISO 14001",
+      "title": {
+        "ar": "إدارة البيئة",
+        "en": "Environmental Management"
+      }
+    },
+    {
+      "code": "ISO 45001",
+      "title": {
+        "ar": "الصحة والسلامة المهنية",
+        "en": "Occupational Health & Safety"
+      }
+    },
+    {
+      "code": "ISO 21500",
+      "title": {
+        "ar": "إدارة المشاريع",
+        "en": "Project Management"
+      }
+    },
+    {
+      "code": "40.39%",
+      "title": {
+        "ar": "شهادة المحتوى المحلي",
+        "en": "Local Content Certificate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "items": [
+    {
+      "slug": "wareef-house-42-yasmin",
+      "district": {
+        "ar": "حي الياسمين",
+        "en": "Al-Yasmin District"
+      },
+      "title": {
+        "ar": "وريف هاوس ٤٢",
+        "en": "Wareef House 42"
+      },
+      "category": {
+        "ar": "سكني",
+        "en": "Residential"
+      },
+      "status": {
+        "ar": "قيد التنفيذ",
+        "en": "In Progress"
+      },
+      "year": "2024",
+      "area": "8,500",
+      "units": {
+        "ar": "٥ فلل • ١٢ عمارة سكنية",
+        "en": "5 Villas • 12 Residential Buildings"
+      },
+      "progress": 47,
+      "description": {
+        "ar": "مشروع وريف هاوس ٤٢ في حي الياسمين عبارة عن ٥ فلل سكنية مكوّنة من دور أرضي وأول وملحق، و١٢ عمارة سكنية مكوّنة من دور أرضي وأول وملحق، بإجمالي مسطحات بناء تقدّر بـ ٨٥٠٠ متر مربع.",
+        "en": "Wareef House 42 in Al-Yasmin comprises 5 residential villas (ground, first floor and roof annex) and 12 residential buildings, with a total built-up area of approximately 8,500 m²."
+      },
+      "highlights": {
+        "ar": [
+          "فلل بتصميم عصري",
+          "عمائر سكنية متكاملة",
+          "موقع استراتيجي بالرياض",
+          "تشطيبات فاخرة"
+        ],
+        "en": [
+          "Modern villa design",
+          "Integrated residential buildings",
+          "Strategic Riyadh location",
+          "Premium finishes"
+        ]
+      },
+      "accent": "#C9A24B",
+      "image": "/images/residential-construction.webp",
+      "gallery": [
+        "/images/residential-construction.webp",
+        "/images/structural-work.webp",
+        "/images/site-shell.webp",
+        "/images/crane-sky.webp"
+      ]
+    },
+    {
+      "slug": "narjis-residential",
+      "district": {
+        "ar": "حي النرجس",
+        "en": "Al-Narjis District"
+      },
+      "title": {
+        "ar": "مشروع النرجس السكني",
+        "en": "Al-Narjis Residential"
+      },
+      "category": {
+        "ar": "سكني",
+        "en": "Residential"
+      },
+      "status": {
+        "ar": "قيد التنفيذ",
+        "en": "In Progress"
+      },
+      "year": "2024",
+      "units": {
+        "ar": "٤ فلل • ١٥ عمارة سكنية",
+        "en": "4 Villas • 15 Residential Buildings"
+      },
+      "value": "20.6",
+      "progress": 47,
+      "description": {
+        "ar": "ضمن توسّع الشركة في العاصمة، تنفّذ مسكن ريفا في حي النرجس ٤ فلل و١٥ عمارة سكنية، كجزء من محفظة مشاريع بإجمالي مساحات بناء تبلغ ١٩٬٧٥٠ متر مربع وقيمة تقارب ٤١٫٢ مليون ريال.",
+        "en": "As part of the company's expansion in the capital, Maskan Riva is delivering 4 villas and 15 residential buildings in Al-Narjis — part of a portfolio totalling 19,750 m² of built-up area and a value of about SAR 41.2 million."
+      },
+      "highlights": {
+        "ar": [
+          "مجمع سكني متكامل",
+          "معايير جودة عالية",
+          "إدارة دقيقة للتكلفة والوقت",
+          "أحياء راقية بالرياض"
+        ],
+        "en": [
+          "Integrated residential compound",
+          "High quality standards",
+          "Precise cost & time control",
+          "Prime Riyadh districts"
+        ]
+      },
+      "accent": "#9C7C3A",
+      "image": "/images/brick-buildings.webp",
+      "gallery": [
+        "/images/brick-buildings.webp",
+        "/images/scaffold-sunset.webp",
+        "/images/structural-work.webp",
+        "/images/earthworks-plot.webp"
+      ]
+    },
+    {
+      "slug": "qurtuba-residential",
+      "district": {
+        "ar": "حي قرطبة",
+        "en": "Qurtuba District"
+      },
+      "title": {
+        "ar": "قرطبة السكني",
+        "en": "Qurtuba Residential"
+      },
+      "category": {
+        "ar": "سكني عصري",
+        "en": "Modern Residential"
+      },
+      "status": {
+        "ar": "منجز",
+        "en": "Completed"
+      },
+      "year": "2023",
+      "units": {
+        "ar": "وحدات سكنية متنوعة",
+        "en": "Mixed Residential Units"
+      },
+      "description": {
+        "ar": "مشروع سكني عصري في حي قرطبة بمدينة الرياض يجمع بين التصميم المعماري الأنيق والوحدات السكنية المتنوعة في موقع حيوي مميز.",
+        "en": "A modern residential project in Riyadh's Qurtuba district combining elegant architecture with a mix of residential units in a vibrant, distinguished location."
+      },
+      "highlights": {
+        "ar": [
+          "تصميم معماري عصري",
+          "موقع حيوي",
+          "تشطيبات راقية",
+          "تنوّع في الوحدات"
+        ],
+        "en": [
+          "Contemporary architecture",
+          "Vibrant location",
+          "Refined finishing",
+          "Varied unit types"
+        ]
+      },
+      "accent": "#7C5E20",
+      "image": "/images/landscape-garden.webp",
+      "gallery": [
+        "/images/landscape-garden.webp",
+        "/images/villas-palm.webp",
+        "/images/villas-pool.webp",
+        "/images/engineer-onsite.webp"
+      ]
+    },
+    {
+      "slug": "nuzha-residential",
+      "district": {
+        "ar": "حي النزهة",
+        "en": "Al-Nuzha District"
+      },
+      "title": {
+        "ar": "مشروع النزهة",
+        "en": "Al-Nuzha Project"
+      },
+      "category": {
+        "ar": "سكني",
+        "en": "Residential"
+      },
+      "status": {
+        "ar": "منجز",
+        "en": "Completed"
+      },
+      "year": "2023",
+      "units": {
+        "ar": "مبانٍ سكنية فاخرة",
+        "en": "Luxury Residential Buildings"
+      },
+      "description": {
+        "ar": "عقار سكني متميّز في حي النزهة يقدّم مجموعة من الوحدات السكنية الفاخرة بتصميم عصري أنيق، مع كل وسائل الراحة والمرافق الحديثة وإطلالات مميزة.",
+        "en": "A distinguished residential development in Al-Nuzha offering a range of luxury units with elegant contemporary design, modern amenities and remarkable views."
+      },
+      "highlights": {
+        "ar": [
+          "وحدات سكنية فاخرة",
+          "تصميم عصري أنيق",
+          "مرافق حديثة",
+          "إطلالات مميزة"
+        ],
+        "en": [
+          "Luxury residential units",
+          "Elegant modern design",
+          "Modern amenities",
+          "Distinctive views"
+        ]
+      },
+      "accent": "#C9A24B",
+      "image": "/images/villas-pool.webp",
+      "gallery": [
+        "/images/villas-pool.webp",
+        "/images/villas-palm.webp",
+        "/images/landscape-garden.webp",
+        "/images/brick-buildings.webp"
+      ]
+    }
+  ]
+}

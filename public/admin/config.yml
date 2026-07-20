@@ -1,0 +1,197 @@
+backend:
+  name: github
+  repo: itWareef/REVA
+  branch: main
+  # بعد نشر الـ Worker على Cloudflare، ضع رابطه هنا بدل السطر التالي:
+  base_url: https://REPLACE-WITH-YOUR-WORKER-URL
+
+locale: ar
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  # ————— الإعدادات والهوية وصور الأقسام والإحصائيات —————
+  - name: settings
+    label: "الإعدادات والهوية"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: company
+        label: "بيانات الشركة • صور الأقسام • الإحصائيات"
+        file: "content/settings.json"
+        fields:
+          - name: company
+            label: "بيانات الشركة"
+            widget: object
+            fields:
+              - { name: name, label: "الاسم", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: legal, label: "الاسم القانوني", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: tagline, label: "الشعار النصي", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: phoneDisplay, label: "الهاتف (كما يظهر)", widget: string }
+              - { name: phoneIntl, label: "الهاتف (صيغة دولية)", widget: string }
+              - { name: email, label: "البريد الإلكتروني", widget: string }
+              - { name: address, label: "العنوان", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: foundedYear, label: "سنة التأسيس", widget: string }
+              - { name: yearsExperience, label: "سنوات الخبرة", widget: string }
+          - name: siteImages
+            label: "صور أقسام الموقع"
+            widget: object
+            fields:
+              - { name: hero, label: "الواجهة الرئيسية", widget: image }
+              - { name: heroSecondary, label: "الواجهة الثانوية", widget: image }
+              - { name: about, label: "قسم من نحن", widget: image }
+              - { name: aboutSecondary, label: "من نحن (ثانوية)", widget: image }
+              - { name: cta, label: "قسم الدعوة للتواصل", widget: image }
+              - { name: services, label: "قسم الخدمات", widget: image }
+              - { name: projects, label: "قسم المشاريع", widget: image }
+              - { name: news, label: "قسم الأخبار", widget: image }
+              - { name: contact, label: "قسم التواصل", widget: image }
+          - name: stats
+            label: "الإحصائيات"
+            widget: list
+            summary: "{{fields.label.ar}}"
+            fields:
+              - { name: value, label: "الرقم", widget: string }
+              - { name: suffix, label: "لاحقة", widget: string, required: false }
+              - { name: label, label: "الوصف", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+
+  # ————— المشاريع —————
+  - name: projects
+    label: "المشاريع"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: projects
+        label: "قائمة المشاريع"
+        file: "content/projects.json"
+        fields:
+          - name: items
+            label: "المشاريع"
+            label_singular: "مشروع"
+            widget: list
+            summary: "{{fields.title.ar}}"
+            fields:
+              - { name: slug, label: "المعرّف بالإنجليزية (بدون مسافات، للرابط)", widget: string, pattern: [ "^[a-z0-9-]+$", "حروف إنجليزية صغيرة وأرقام وشرطات فقط" ] }
+              - { name: title, label: "اسم المشروع", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: district, label: "الحي", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: category, label: "التصنيف", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: status, label: "الحالة", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: year, label: "السنة", widget: string }
+              - { name: area, label: "المساحة (م²)", widget: string, required: false }
+              - { name: value, label: "القيمة (مليون ريال)", widget: string, required: false }
+              - { name: units, label: "الوحدات", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: progress, label: "نسبة الإنجاز %", widget: number, required: false, value_type: int, min: 0, max: 100 }
+              - { name: description, label: "الوصف", widget: object, fields: [ { name: ar, label: "عربي", widget: text }, { name: en, label: "English", widget: text } ] }
+              - name: highlights
+                label: "أبرز النقاط"
+                widget: object
+                fields:
+                  - { name: ar, label: "عربي", widget: list, field: { name: point, label: "نقطة", widget: string } }
+                  - { name: en, label: "English", widget: list, field: { name: point, label: "point", widget: string } }
+              - { name: accent, label: "اللون المميز (hex)", widget: string, default: "#C9A24B" }
+              - { name: image, label: "الصورة الرئيسية", widget: image }
+              - { name: gallery, label: "معرض الصور", widget: list, field: { name: img, label: "صورة", widget: image } }
+
+  # ————— الأخبار والمقالات —————
+  - name: news
+    label: "الأخبار والمقالات"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: news
+        label: "قائمة الأخبار"
+        file: "content/news.json"
+        fields:
+          - name: items
+            label: "الأخبار"
+            label_singular: "خبر"
+            widget: list
+            summary: "{{fields.title.ar}}"
+            fields:
+              - { name: slug, label: "المعرّف بالإنجليزية (للرابط)", widget: string, pattern: [ "^[a-z0-9-]+$", "حروف إنجليزية صغيرة وأرقام وشرطات فقط" ] }
+              - { name: date, label: "التاريخ", widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { name: dateLabel, label: "التاريخ كنص", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: tag, label: "التصنيف", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: title, label: "العنوان", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: excerpt, label: "المقتطف", widget: object, fields: [ { name: ar, label: "عربي", widget: text }, { name: en, label: "English", widget: text } ] }
+              - name: body
+                label: "نص المقال (كل فقرة سطر)"
+                widget: object
+                fields:
+                  - { name: ar, label: "عربي", widget: list, field: { name: p, label: "فقرة", widget: text } }
+                  - { name: en, label: "English", widget: list, field: { name: p, label: "paragraph", widget: text } }
+              - { name: image, label: "صورة الخبر", widget: image }
+
+  # ————— الخدمات —————
+  - name: services
+    label: "الخدمات"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: services
+        label: "قائمة الخدمات"
+        file: "content/services.json"
+        fields:
+          - name: items
+            label: "الخدمات"
+            label_singular: "خدمة"
+            widget: list
+            summary: "{{fields.title.ar}}"
+            fields:
+              - { name: slug, label: "المعرّف بالإنجليزية", widget: string, pattern: [ "^[a-z0-9-]+$", "حروف إنجليزية صغيرة وأرقام وشرطات فقط" ] }
+              - { name: icon, label: "اسم الأيقونة (Lucide)", widget: string }
+              - { name: image, label: "الصورة", widget: image }
+              - { name: title, label: "العنوان", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: short, label: "وصف مختصر", widget: object, fields: [ { name: ar, label: "عربي", widget: text }, { name: en, label: "English", widget: text } ] }
+              - name: points
+                label: "النقاط"
+                widget: object
+                fields:
+                  - { name: ar, label: "عربي", widget: list, field: { name: point, label: "نقطة", widget: string } }
+                  - { name: en, label: "English", widget: list, field: { name: point, label: "point", widget: string } }
+
+  # ————— القيم —————
+  - name: values
+    label: "قيم الشركة"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: values
+        label: "قائمة القيم"
+        file: "content/values.json"
+        fields:
+          - name: items
+            label: "القيم"
+            label_singular: "قيمة"
+            widget: list
+            summary: "{{fields.title.ar}}"
+            fields:
+              - { name: icon, label: "اسم الأيقونة (Lucide)", widget: string }
+              - { name: title, label: "العنوان", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }
+              - { name: text, label: "النص", widget: object, fields: [ { name: ar, label: "عربي", widget: text }, { name: en, label: "English", widget: text } ] }
+
+  # ————— الاعتمادات والشهادات —————
+  - name: certifications
+    label: "الاعتمادات والشهادات"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: certifications
+        label: "قائمة الشهادات"
+        file: "content/certifications.json"
+        fields:
+          - name: items
+            label: "الشهادات"
+            label_singular: "شهادة"
+            widget: list
+            summary: "{{fields.title.ar}}"
+            fields:
+              - { name: code, label: "الرمز/النسبة", widget: string }
+              - { name: title, label: "العنوان", widget: object, fields: [ { name: ar, label: "عربي", widget: string }, { name: en, label: "English", widget: string } ] }

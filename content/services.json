@@ -1,0 +1,166 @@
+{
+  "items": [
+    {
+      "slug": "structural",
+      "icon": "Building2",
+      "image": "/images/structural-work.webp",
+      "title": {
+        "ar": "الأعمال الإنشائية والعظم",
+        "en": "Structural & Concrete Works"
+      },
+      "short": {
+        "ar": "تنفيذ أعمال العظم للمباني السكنية والتجارية بأساسات خرسانية ومعدنية دقيقة تضمن متانة المشروع.",
+        "en": "Structural and concrete works for residential and commercial buildings, with precise foundations that ensure lasting durability."
+      },
+      "points": {
+        "ar": [
+          "هياكل خرسانية مسلّحة",
+          "إنشاءات معدنية",
+          "أساسات ومعالجة أحمال",
+          "إشراف هندسي متكامل"
+        ],
+        "en": [
+          "Reinforced concrete frames",
+          "Steel structures",
+          "Foundations & load engineering",
+          "Full engineering supervision"
+        ]
+      }
+    },
+    {
+      "slug": "earthworks",
+      "icon": "Mountain",
+      "image": "/images/excavation.webp",
+      "title": {
+        "ar": "الحفر والردم وأعمال التربة",
+        "en": "Excavation, Backfill & Earthworks"
+      },
+      "short": {
+        "ar": "أعمال الحفر والردم ومعالجة التربة لتأسيس قوي وآمن لمختلف أنواع المشاريع.",
+        "en": "Excavation, backfilling and soil treatment for a strong, safe foundation across every project type."
+      },
+      "points": {
+        "ar": [
+          "حفر وتسوية المواقع",
+          "ردم مدروس ومضغوط",
+          "معالجة التربة",
+          "تصريف وحماية"
+        ],
+        "en": [
+          "Site excavation & leveling",
+          "Engineered compacted backfill",
+          "Soil treatment",
+          "Drainage & protection"
+        ]
+      }
+    },
+    {
+      "slug": "mechanical",
+      "icon": "Cog",
+      "image": "/images/steel-structure.webp",
+      "title": {
+        "ar": "الأعمال الميكانيكية",
+        "en": "Mechanical Works"
+      },
+      "short": {
+        "ar": "أنظمة التكييف والمصاعد وتمديدات الدفاع المدني وفق أعلى مواصفات السلامة والكفاءة.",
+        "en": "HVAC systems, elevators and civil-defense installations executed to the highest standards of safety and efficiency."
+      },
+      "points": {
+        "ar": [
+          "أنظمة تكييف مركزية",
+          "مصاعد حديثة",
+          "تمديدات الدفاع المدني",
+          "أنظمة إطفاء وإنذار"
+        ],
+        "en": [
+          "Central HVAC systems",
+          "Modern elevators",
+          "Civil-defense piping",
+          "Fire suppression & alarm"
+        ]
+      }
+    },
+    {
+      "slug": "finishing",
+      "icon": "PaintRoller",
+      "image": "/images/villas-palm.webp",
+      "title": {
+        "ar": "التشطيبات الداخلية والخارجية",
+        "en": "Interior & Exterior Finishing"
+      },
+      "short": {
+        "ar": "تشطيبات راقية بحلول تصميم متميزة تلبي مختلف الأذواق وتمنح المشروع هويته النهائية.",
+        "en": "Premium interior and exterior finishing with distinctive design solutions that give each project its final identity."
+      },
+      "points": {
+        "ar": [
+          "تشطيبات فاخرة",
+          "واجهات معمارية",
+          "أرضيات وديكورات",
+          "حلول تصميم داخلي"
+        ],
+        "en": [
+          "Luxury finishes",
+          "Architectural façades",
+          "Flooring & décor",
+          "Interior design solutions"
+        ]
+      }
+    },
+    {
+      "slug": "landscape",
+      "icon": "Trees",
+      "image": "/images/landscape-garden.webp",
+      "title": {
+        "ar": "اللاندسكيب والتنسيق",
+        "en": "Landscaping & Outdoor Works"
+      },
+      "short": {
+        "ar": "تنسيق الحدائق وإنشاء المسابح والنوافير لإضافة لمسة جمالية متكاملة لكل مشروع.",
+        "en": "Garden landscaping, swimming pools and fountains that add a complete aesthetic touch to every project."
+      },
+      "points": {
+        "ar": [
+          "تنسيق حدائق",
+          "مسابح ونوافير",
+          "ممرات وإضاءة خارجية",
+          "أنظمة ري ذكية"
+        ],
+        "en": [
+          "Garden landscaping",
+          "Pools & fountains",
+          "Walkways & outdoor lighting",
+          "Smart irrigation"
+        ]
+      }
+    },
+    {
+      "slug": "electrical",
+      "icon": "Zap",
+      "image": "/images/blueprint-hardhat.webp",
+      "title": {
+        "ar": "الأعمال الكهربائية والأنظمة الذكية",
+        "en": "Electrical & Smart Systems"
+      },
+      "short": {
+        "ar": "حلول كهربائية متطورة تشمل الإنارة والأنظمة الذكية وأنظمة التحكم لمبانٍ أكثر كفاءة.",
+        "en": "Advanced electrical solutions — lighting, smart systems and control automation for more efficient buildings."
+      },
+      "points": {
+        "ar": [
+          "أنظمة إنارة",
+          "أنظمة منزل ذكي",
+          "لوحات وتحكم",
+          "كفاءة وترشيد الطاقة"
+        ],
+        "en": [
+          "Lighting systems",
+          "Smart-home automation",
+          "Panels & controls",
+          "Energy efficiency"
+        ]
+      }
+    }
+  ]
+}

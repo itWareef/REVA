@@ -1,0 +1,70 @@
+{
+  "company": {
+    "name": {
+      "ar": "مسكن ريفا",
+      "en": "Maskan Riva"
+    },
+    "legal": {
+      "ar": "شركة مسكن ريفا للمقاولات",
+      "en": "Maskan Riva Contracting Co."
+    },
+    "tagline": {
+      "ar": "نبني أكثر من مجرد مشاريع… نبني المستقبل",
+      "en": "We build more than projects — we build the future"
+    },
+    "phoneDisplay": "0536599002",
+    "phoneIntl": "+966536599002",
+    "email": "info@rivacontractingsa.com",
+    "address": {
+      "ar": "حي القيروان، الرياض، المملكة العربية السعودية",
+      "en": "Al-Qayrawan District, Riyadh, Saudi Arabia"
+    },
+    "foundedYear": "2001",
+    "yearsExperience": "20+"
+  },
+  "siteImages": {
+    "hero": "/images/crane-sky.webp",
+    "heroSecondary": "/images/scaffold-sunset.webp",
+    "about": "/images/engineer-onsite.webp",
+    "aboutSecondary": "/images/structural-work.webp",
+    "cta": "/images/scaffold-sunset.webp",
+    "services": "/images/steel-structure.webp",
+    "projects": "/images/brick-buildings.webp",
+    "news": "/images/residential-construction.webp",
+    "contact": "/images/site-shell.webp"
+  },
+  "stats": [
+    {
+      "value": "20",
+      "suffix": "+",
+      "label": {
+        "ar": "عاماً من الخبرة",
+        "en": "Years of Experience"
+      }
+    },
+    {
+      "value": "120",
+      "suffix": "+",
+      "label": {
+        "ar": "مشروعاً منفذاً",
+        "en": "Projects Delivered"
+      }
+    },
+    {
+      "value": "28000",
+      "suffix": "+",
+      "label": {
+        "ar": "م² إجمالي مسطحات البناء",
+        "en": "m² Built-up Area"
+      }
+    },
+    {
+      "value": "40",
+      "suffix": "+",
+      "label": {
+        "ar": "مهندساً وفنياً",
+        "en": "Engineers & Technicians"
+      }
+    }
+  ]
+}
