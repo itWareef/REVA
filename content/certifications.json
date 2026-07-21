@@ -27,6 +27,13 @@
         "ar": "شهادة المحتوى المحلي",
         "en": "Local Content Certificate"
       }
+    },
+    {
+      "code": "الدرجة الثانية",
+      "title": {
+        "ar": "تصنيف وزارة الشؤون البلدية والقروية",
+        "en": "CONTRACTOR CLASSIFICATION CERTIFIATE"
+      }
     }
   ]
 }
