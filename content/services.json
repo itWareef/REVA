@@ -3,7 +3,7 @@
     {
       "slug": "structural",
       "icon": "Building2",
-      "image": "/images/Gemini_Generated_Image_garpm3garpm3garp.png",
+      "image": "/images/Gemini_Generated_Image_11v13j11v13j11v1.png",
       "title": {
         "ar": "الأعمال الإنشائية والعظم",
         "en": "Structural & Concrete Works"
@@ -57,7 +57,7 @@
     {
       "slug": "mechanical",
       "icon": "Cog",
-      "image": "/images/steel-structure.webp",
+      "image": "/images/Gemini_Generated_Image_ygebj6ygebj6ygeb.png",
       "title": {
         "ar": "الأعمال الميكانيكية",
         "en": "Mechanical Works"
@@ -84,7 +84,7 @@
     {
       "slug": "finishing",
       "icon": "PaintRoller",
-      "image": "/images/villas-palm.webp",
+      "image": "/images/Gemini_Generated_Image_bsimg2bsimg2bsim.png",
       "title": {
         "ar": "التشطيبات الداخلية والخارجية",
         "en": "Interior & Exterior Finishing"
@@ -111,7 +111,7 @@
     {
       "slug": "landscape",
       "icon": "Trees",
-      "image": "/images/landscape-garden.webp",
+      "image": "/images/Gemini_Generated_Image_ydojltydojltydoj.png",
       "title": {
         "ar": "اللاندسكيب والتنسيق",
         "en": "Landscaping & Outdoor Works"
@@ -138,7 +138,7 @@
     {
       "slug": "electrical",
       "icon": "Zap",
-      "image": "/images/blueprint-hardhat.webp",
+      "image": "/images/Gemini_Generated_Image_xdz04pxdz04pxdz0.png",
       "title": {
         "ar": "الأعمال الكهربائية والأنظمة الذكية",
         "en": "Electrical & Smart Systems"
